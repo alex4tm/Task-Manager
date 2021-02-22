@@ -1,0 +1,5 @@
+<h1><%= check_box_tag :completed, true, @task.completed %><%= @task.title %></h1>
+<h2><%= @task.details %></h2>
+
+
+<%= link_to 'All Tasks', tasks_path %>
