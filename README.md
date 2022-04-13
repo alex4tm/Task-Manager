@@ -3,6 +3,13 @@
  Create a new note <br/>
  Parameters: title: string, description: string, reminder: boolean, status: string, category: string <br/>
  Response: success: 200, error: 400
+ ```js
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 
 
 ## GET /notes/{id}
