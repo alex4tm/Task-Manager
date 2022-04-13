@@ -1,24 +1,35 @@
-# README
+# create
+## POST /notes
+### Create a new note
+### Parameters: title: string, description: string, reminder: boolean, status: string, category: string
+### Response: success: 200, error: 400
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# getOne
+## GET /notes/{id}
+### Get a single note
+### Parameters: id: string
+### Response: success: 200, error: 404
 
-* Ruby version
 
-* System dependencies
+# getAll
+## GET /notes
+### Get all notes
+### Parameters: none
+### Response: success: 200, error: 404
 
-* Configuration
 
-* Database creation
+# update
+## PUT /notes/{id}
+### Update a note
+### Parameters: title: string, description: string, reminder: boolean, status: string, category: string
+### Response: success: 204, error: 400
 
-* Database initialization
 
-* How to run the test suite
+# delete
+## DELETE /notes/{id}
+### Delete a note
+### Parameters: id: string
+### Response: success: 200, error: 400
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
