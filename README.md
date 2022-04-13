@@ -1,5 +1,5 @@
 ## POST /notes
-Action: create<br />Create a new note<br />Parameters:
+__Create a new note__<br />Action: create<br />Parameters:
 ```
   title: string
   description: string
@@ -15,7 +15,7 @@ Response:
 
 
 ## GET /notes/{id}
-Action: getOne<br />Get a single note<br />Parameters:
+__Get a single note__<br />Action: getOne<br />Parameters:
 ```
   id: string
 ```
@@ -27,7 +27,7 @@ Response:
 
 
 ## GET /notes
-Action: getAll<br />Get all notes<br />Parameters:
+__Get all notes__<br />Action: getAll<br />Parameters:
 ```
   none
 ```
@@ -39,7 +39,7 @@ Response:
 
 
 ## PUT /notes/{id}
-Action: update<br />Update a note<br />Parameters:
+__Update a note__<br />Action: update<br />Parameters:
 ```
   id: string
   title: string
@@ -56,7 +56,7 @@ Response:
 
 
 ## DELETE /notes/{id}
-Action: delete<br />Delete a note<br />Parameters:
+__Delete a note__<br />Action: delete<br />Parameters:
 ```
   id: string
 ```
