@@ -1,4 +1,4 @@
-## POST /notes
+## __POST /notes__
  Action: create <br/>
  Create a new note <br/>
  Parameters: title: string, description: string, reminder: boolean, status: string, category: string <br/>
