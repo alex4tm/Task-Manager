@@ -1,15 +1,16 @@
 ## **POST /notes**
  __Action: create__ <br/>
  **Create a new note** <br/>
- Parameters: title: string, description: string, reminder: boolean, status: string, category: string <br/>
- Response: success: 200, error: 400
+ Parameters:
  ```js
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+ - title: string <br/> 
+ - description: string <br/> 
+ - reminder: boolean <br/>
+ - status: string <br/>
+  - category: string
+ ```
+ Response: success: 200, error: 400
+
 
 
 ## GET /notes/{id}
