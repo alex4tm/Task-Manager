@@ -1,6 +1,6 @@
-## __POST /notes__
- Action: create <br/>
- Create a new note <br/>
+## **POST /notes**
+ __Action: create__ <br/>
+ **Create a new note** <br/>
  Parameters: title: string, description: string, reminder: boolean, status: string, category: string <br/>
  Response: success: 200, error: 400
  ```js
