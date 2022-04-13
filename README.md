@@ -1,7 +1,7 @@
 ## POST /notes
- Action: create
- Create a new note
- Parameters: title: string, description: string, reminder: boolean, status: string, category: string
+ Action: create \n
+ Create a new note \n
+ Parameters: title: string, description: string, reminder: boolean, status: string, category: string \n
  Response: success: 200, error: 400
 
 
